@@ -10,7 +10,7 @@ wordlist = []
 def main():  
   wordlist = []
   jumbled_word= None
-
+ 
   sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
   server_address = ('10.0.0.13',5050)
   sock.connect(server_address)
