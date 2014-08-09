@@ -1,11 +1,6 @@
-from subprocess import Popen, PIPE, STDOUT
 import socket
 import sys
 import re
-from itertools import permutations, combinations
-import time
-from threading import Thread
-output = ''
 wordlist = []
 def main():  
   wordlist = []
